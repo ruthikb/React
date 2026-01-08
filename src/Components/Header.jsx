@@ -22,7 +22,7 @@ export var Header = () => {
                   setButton("login");
                 }
               }}
-              className="login-button s"
+              className="login-button"
             >
               {button}
             </button>
