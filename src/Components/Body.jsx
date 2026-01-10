@@ -1,6 +1,7 @@
 import {  useEffect, useState } from "react";
 import { restaurantData } from "../Utility/Constant.jsx";
 import { Restaurant } from "./Restaurant.jsx";
+import { Shimmer } from "./shimmer.jsx";
 
 export var Body = () => {
   //state variable to hold the data
@@ -16,6 +17,9 @@ export var Body = () => {
     console.log(extractedData);
     setListOfRestaurants(extractedData);
 
+  }
+  if(listOfRestaurants.length === 0) {
+    return <Shimmer></Shimmer>
   }
   return (
     <div className="body">
