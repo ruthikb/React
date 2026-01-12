@@ -1,4 +1,4 @@
-var Shimmer = () => {
+export var Shimmer = () => {
     return (
         <div className="shimmer-wrapper">
             <div className="shimmer-card"></div>
@@ -13,4 +13,4 @@ var Shimmer = () => {
         </div>
     );
 }
-export default { Shimmer };
+
