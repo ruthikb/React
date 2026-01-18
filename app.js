@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Header } from "./src/Components/Header.jsx";
 import { Body } from "./src/Components/Body.jsx";
-import { About } from "./src/Components/about.jsx";
+import { About } from "./src/Components/About.jsx";
 import { Error } from "./src/Components/error.jsx";
 import { Contact } from "./src/Components/Contact.jsx";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
@@ -22,11 +22,11 @@ const appRouter = createBrowserRouter([
     element: <AppLayout></AppLayout>,
     children: [
       {
-        path: "/About",
+        path: "/about",
         element: <About></About>,
       },
       {
-        path: "/Contact",
+        path: "/contact",
         element: <Contact></Contact>,
       },
       {

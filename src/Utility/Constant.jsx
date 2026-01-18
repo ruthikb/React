@@ -886,3 +886,4 @@ export var restaurantData = [{
   }
 },  
 ];
+export const FOOD_CATALOG="https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.97530&lng=77.59100&restaurantId=3241&catalog_qa=undefined&query=non%20veg&submitAction=ENTER";
