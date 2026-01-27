@@ -11,7 +11,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 var AppLayout = () => {
   return (
     <div>
-      <Header />
+      <Header /> 
       <Outlet></Outlet>
     </div>
   );
