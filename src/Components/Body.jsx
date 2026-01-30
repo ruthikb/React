@@ -82,6 +82,8 @@ export var Body = () => {
         ) : (
           listOfRestaurants.map((restaurant) => {
             const info = restaurant.card.card.info;
+            {listOfRestaurants.map((res) => console.log(res.card.card.info.id))
+            }
             return (
               <Restaurant
                 resData={info}

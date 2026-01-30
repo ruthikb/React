@@ -1,15 +1,17 @@
 import { use, useEffect } from "react";
 
-const ResturandData=()=>{
+const RestaurantData=()=>{
+    const {id}=useParams();
+    console.log("data in the url"+ id);
     useEffect(()=>{
-        fetchMenuData();
+    //     fetchMenuData();
     },[]);
 
-    async function fetchMenuData(){
-        const data=await fetch(FOOD_CATALOG);
-        const json=await data.json();
-        console.log(json);
-    }
+    // async function fetchMenuData(){
+    //     const data=await fetch(FOOD_CATALOG);
+    //     const json=await data.json();
+    //     console.log(json);
+    };
     return(
         <div>
             <h1>Resturant Menu</h1>
@@ -18,5 +20,5 @@ const ResturandData=()=>{
             </h2>
         </div>
     );
-};
-export default ResturandData;
+
+export default RestaurantData;
