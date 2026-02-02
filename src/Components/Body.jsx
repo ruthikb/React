@@ -1,12 +1,12 @@
 import {  useEffect, useState } from "react";
-import { restaurantData } from "../Utility/Constant.jsx";
+import{SWIGGY_MENU_API} from "../Utility/Constant.jsx";
 import { Restaurant } from "./Restaurant.jsx";
 // import { Shimmer } from "./shimmer.jsx";
 
 export var Body = () => {
   //state variable to hold the data
-  const [listOfRestaurants, setListOfRestaurants] = useState(restaurantData);
-  const [allRestaurants, setAllRestaurants] = useState(restaurantData);
+  const [listOfRestaurants, setListOfRestaurants] = useState(SWIGGY_MENU_API);
+  const [allRestaurants, setAllRestaurants] = useState(SWIGGY_MENU_API);
   const [searchText, setSearchText] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 

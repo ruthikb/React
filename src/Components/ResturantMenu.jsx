@@ -14,7 +14,7 @@ const RestaurantData=()=>{
     };
     return(
         <div>
-            <h1>Resturant Menu</h1>
+            <h1>{}</h1>
             <h2>Menu items will be displayed here
                 <p>Data fetched from API</p>
             </h2>
