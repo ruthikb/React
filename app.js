@@ -12,7 +12,7 @@ import RestaurantData from "./src/Components/ResturantMenu.jsx";
 var AppLayout = () => {
   return (
     <div>
-      <Header /> 
+      <Header />
       <Outlet></Outlet>
     </div>
   );
@@ -37,7 +37,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/menu/:id",
         element:<RestaurantData></RestaurantData>,
-      }
+      } 
     ],
     errorElement: <Error></Error>,
   },
