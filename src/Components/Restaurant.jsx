@@ -1,8 +1,10 @@
-export var Restaurant = ({ resData }) => {
+export var Restaurant = ({ resData }) =>
+   {
   var { name, avgRating, cuisines, costForTwo, locality, cloudinaryImageId } = resData;
   // console.log(resData);
 
-  return (
+  return
+   (
     <div className="restaurant-card">
       <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} alt={name} />
       <h2>{name}</h2>
