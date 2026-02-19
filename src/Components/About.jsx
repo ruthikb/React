@@ -19,7 +19,7 @@ export var About = () => {
                 <p>Our dedicated team is the backbone of our Food Delivery Application. Comprising talented individuals from diverse backgrounds, our team works collaboratively to ensure a smooth and efficient food ordering experience for our users.</p>
                 <p>From software developers and designers to customer support representatives and marketing experts, each team member plays a crucial role in our mission to deliver exceptional service. Together, we are committed to continuous improvement and innovation in the food delivery industry.</p>
             </div>
-            
+
             <div className="contact-info">
                 <h2>Contact Us</h2>
                 <p>We value your feedback and are here to assist you with any questions or concerns you may have. Please feel free to reach out to us through the following channels:</p>
@@ -34,3 +34,17 @@ export var About = () => {
         </div>
     );
 };
+const About = () => {
+    return (
+        <div>
+            <AboutClass>
+                about={"Welcome to our Food Delivery Application! We are dedicated to bringing delicious meals right to your doorstep with just a few clicks. Our mission is to provide a seamless and enjoyable food ordering experience for our customers."}
+                discription={"Our team works tirelessly to partner with the best local restaurants, ensuring a diverse selection of cuisines to satisfy every palate. Whether you're craving a quick snack or a gourmet meal, we've got you covered."}
+                founder={"John Doe, the visionary founder of our Food Delivery Application, has always been passionate about food and technology. With a background in software development and a love for culinary arts, John embarked on a mission to revolutionize the way people order food."}
+                team={"Our dedicated team is the backbone of our Food Delivery Application. Comprising talented individuals from diverse backgrounds, our team works collaboratively to ensure a smooth and efficient food ordering experience for our users."}
+                contact={"We value your feedback and are here to assist you with any questions or concerns you may have. Please feel free to reach out to us through the following channels: Email: contact@fooddeliveryapp.com"}
+            </AboutClass>
+
+        </div>
+    );
+}
